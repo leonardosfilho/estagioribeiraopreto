@@ -9,22 +9,28 @@
     font-style: normal;
 }
 #app {
-     animation: up 1s ease-in-out; 
+    animation: up 1s ease-in-out; 
     display: flex;
     flex-direction: column;
     margin: 100px auto;
+   
     
 }
 header {
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5),
+    1px 0px 5px rgba(0, 0, 0, 0.5),
+    -1px 0px 5px rgba(0, 0, 0, 0.5);
     text-align: center;
     padding: 40px;
     background-color: rgb(230, 230, 230);
     width: 500px;
     margin: auto;
-
     border-radius: 5px 5px 0 0;
 }
 section{
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5),
+                1px 0px 5px rgba(0, 0, 0, 0.5),
+                -1px 0px 5px rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: column;
     padding:40px;
